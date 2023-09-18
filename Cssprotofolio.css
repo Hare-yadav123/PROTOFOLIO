@@ -1,0 +1,237 @@
+body{
+   /* background-color:rgba(255, 166, 0, 0.323); */
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    background-color:rgba(255, 166, 0, 0.323);
+    /* background-image: url(web1.jpg); */
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh; 
+}
+nav img{
+    
+    padding: 20px 20px;
+    width: 15%;
+    border-radius: 100vh;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Nav-section{
+    flex: 1;
+   text-align: right;}
+.Nav-section ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    /* color: white; */
+    font-weight: 600;
+    font-size: 20px;
+}  
+.Nav-section ul li:hover{
+    background-color:red;
+    border: 1px;
+    border-radius: 10px;
+}
+.text h2{
+    text-align: left;
+    justify-content: center;
+    size: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    /* color: azure; */
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.text p{
+    /* color: azure; */
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.text p:hover{
+    color: blue;
+}
+.buttom{
+    text-align: center;
+    /* color: white; */
+    text-decoration: none;
+}
+.m{
+    text-decoration: none;
+    border: border-box;
+    /* color: white; */
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.m:hover{
+    background-color: red;
+}
+
+.text a{
+    margin-left: 40px;
+    border: 1px solid;
+   display: inline-block;
+    justify-content: center;
+    padding-top: 1px;
+    text-decoration: none;
+    background-color:orange;
+    color: white;
+}
+/* --------------skilwls section---------- */
+/* .job h1{
+    text-align: center;
+    font-weight: 20px;
+}
+.job p{
+    text-align: center;
+    font-weight: 20px;
+}
+.job h1{
+    font-weight: bold;
+}
+.offer{
+    text-align: center;
+    font-weight: 20px;
+    padding: 40px;
+    display: flex;
+    background-color: rgb(127, 182, 255); 
+}*/
+@media(max-width:700px) {
+    .skill{
+        flex-direction: column;
+    }
+    .Nav-section ul li{
+        display: block;
+    }
+}
+/* .work{
+    margin: 0;
+    padding: 20px 20px;
+    color: black
+}
+.work h3{
+    font-weight: bold;
+    color: white; 
+}*/
+@media(max-width:700){
+    .text{
+        font-size: 20px;
+    }
+
+}
+
+/* ---------image section webi-------- */
+.image{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+}
+.image img{
+    height: 90%;
+    position: absolute;
+    bottom: 1px;
+    transform: translate(-50);
+    transition: bottom 1s left 5s;
+}
+span{
+    color: orange;
+}
+.skill{
+    background-color: rgb(212, 192, 192);
+}
+
+.skill .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.skill .box h2{
+    text-transform: uppercase;
+    color: #84998afc;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.skill .box .percent{
+    position: relative;
+    width: 80%;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    margin-left: 30px ;
+}
+.skill .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9fa;
+    border-radius: 10px;  
+}
+.title{
+    text-align: center;
+    padding: 20px;}
+
+.about{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.project{
+    /* margin: 20px; */
+    display: flex; 
+    text-decoration: solid;  
+}
+.mo{
+    text-align:center;
+    justify-content: center;
+    /* background-color:rgba(255, 255, 0, 0.691); */
+}
+.mo h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.express{
+    text-align: center;
+    margin: 20px;  
+}
+.express h4{
+    font-weight: bold;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    margin: 20px 20px;
+    right: 40%;
+}
+.con h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.address{
+    margin-left: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;  
+}
+ a{
+    text-decoration: none;
+    
+}
