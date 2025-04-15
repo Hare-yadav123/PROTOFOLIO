@@ -45,10 +45,9 @@ span{
     margin-left: 40px;
 }
 .img img{
-    align-items: end;
     margin-left: 40%;
     width: 100vh;
-    height: 50vh;  
+    height: 70vh;  
 }
 .upload{
     margin-left: 20%;
@@ -64,7 +63,7 @@ span{
     background-color: red;
 }
 .skill{
-    margin: 5% 5%;
+    margin: 2% 2%;
     padding: 30px;
     font-weight: 600;
 }
@@ -85,19 +84,19 @@ span{
     position: relative;
     width: 80%;
 }
-.project{
-    display: flex;
+/* .project{
+    
     position: relative;
     margin: 20px 20px;
     padding: 10px;
-}
-.course p{
+} */
+/* .course p{
     font-weight: 400;
     font-size: 20px;
     border: 1px  ;
-}
+} */
 
-.h2{
+/* .h2{
     padding:2%;
     text-align: center;
     font-weight: 600;
@@ -116,7 +115,23 @@ span{
 .course h4{
     font-size: 20px;
     font-weight: bold;
-}
+} */
+ .project {
+    margin: 2% 5%;
+ }
+ .Exprience {
+    margin: 2% 5%;
+ }
+ .Certification{
+    margin: 2% 5%;
+ }
+
+ .Qualification {
+    margin: 2% 5%;
+ }
+ .con{
+    margin: 2% 5%;
+ }
 .contact{
     display: flex;
     margin-left: 20%;
@@ -142,4 +157,7 @@ span{
     padding: 10px;
     border: 1px solid;
     background-color: black;
+}
+.follow a{
+    border-radius: 2%;
 }
